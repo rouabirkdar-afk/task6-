@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>roua-birkdar#6</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span>Main interface</span>
+            <h1>Children's Clothing Store</h1>
+            <a href="admin.html">Admin Panel</a>
+        </nav>
+    </header>
+    <main>
+        <!--first section-->
+        <section>
+            <h1 class="se">Search and Filter</h1>
+            <form class="form">
+                <div class="filters">
+                    <div class="ser">
+                        <input id="search" type="text" placeholder="search by name">
+                        <ul id="result"></ul>
+                        <button id="submit" class="button">send</button>
+                    </div>
+                    <select id="category">
+                        <option value="all">all</option>
+                        <option value="boy">boy</option>
+                        <option value="girl">girl</option>
+                    </select>
+                    <select id="sort">
+                        <option value="none">Sort by price</option>
+                        <option value="asc">From most expensive to least expensive</option>
+                        <option value="desc">From least expensive to most expensive</option>
+                    </select>
+
+                </div>
+            </form>
+            <div class="slider cards-container" id="slider">
+                <div class="card" ,value="girl">
+                    <!-- name: "Girl's short and t-shirt", price: 20, categoryFilter: "girl", img: "Assets/js/img/OIP.webp" -->
+                    <div class="att">
+                        <h3>Girl's short and t-shirt</h3>
+                        <h4>price: 20 $</h4>
+                        <h4>category: "girl"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP.webp">
+                </div>
+                <div class="card">
+                    <!-- name: "Girl's dress", price: 25, categoryFilter: "girl", img: "Assets/js/img/OIP (1).webp"  -->
+                    <div class="att">
+                        <h3>Girl's dress</h3>
+                        <h4>price: 25 $</h4>
+                        <h4>category: "girl"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP (1).webp">
+
+                </div>
+                <div class="card">
+                    <!-- name: "Girl's jeans", price: 18, categoryFilter: "girl", img: "Assets/js/img/OIP (3).webp -->
+                    <div class="att">
+                        <h3>Girl's jeans</h3>
+                        <h4> price: 18 $</h4>
+                        <h4>category: "girl"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP (3).webp">
+                </div>
+                <div class="card">
+                    <!-- name: "Girl's winter clothe", price: 45, categoryFilter: "girl", img: "Assets/js/img/OIP (2).webp" -->
+                    <div class="att">
+                        <h3>Girl's winter clothe</h3>
+                        <h4> price: 45 $</h4>
+                        <h4>category: "girl"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP (2).webp">
+                </div>
+                <div class="card">
+                    <!-- name: "boy's clothe", price: 40, categoryFilter: "boy", img: "Assets/js/img/OIP (4).webp" -->
+                    <div class="att">
+                        <h3>boy's clothe</h3>
+                        <h4>price: 40 $</h4>
+                        <h4>category: "boy"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP (4).webp" alt="">
+                </div>
+                <div class="card">
+                    <!-- name: "boy's jeans and t-shirt", price: 30, categoryFilter: "boy", img: "Assets/js/img/OIP (5).webp" -->
+                    <div class="att">
+                        <h3>boy's jeans and t-shirt</h3>
+                        <h4>price: 30 $</h4>
+                        <h4> category: "boy"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/OIP (5).webp" alt="">
+                </div>
+                <div class="card">
+                    <!-- name: "boy's short and t-shirt", price: 20, categoryFilter: "boy", img: "Assets/js/img/تنزيل.webp" -->
+                    <div class="att">
+                        <h3>boy's short and t-shirt</h3>
+                        <h4>price: 20 $</h4>
+                        <h4>category: "boy"</h4>
+                    </div>
+                    <img class="pictcher" src="assets/img/تنزيل.webp" alt="">
+                </div>
+            </div>
+            <div class="btns">
+                <button id="next">
+                    < </button>
+                        <button id="prev">></button>
+            </div>
+        </section>
+
+    </main>
+    <script src="./assets/js/javasc.js"></script>
+</body>
+
+</html>
