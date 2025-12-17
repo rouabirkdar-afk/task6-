@@ -12,13 +12,13 @@ console.log(search, submit, sort, result)
 
 
 localStorage.setItem("products", JSON.stringify([
-    { name: "Girl's short and t-shirt", price: 20, category: "girl", img: "Assets/js/img/OIP.webp" },
-    { name: "Girl's dress", price: 25, category: "girl", img: "Assets/js/img/OIP (1).webp" },
-    { name: "Girl's jeans", price: 18, category: "girl", img: "Assets/js/img/OIP (3).webp" },
-    { name: "Girl's winter clothe", price: 45, category: "girl", img: "Assets/js/img/OIP (2).webp" },
-    { name: "boy's clothe", price: 40, category: "boy", img: "Assets/js/img/OIP (4).webp" },
-    { name: "boy's jeans and t-shirt", price: 30, category: "boy", img: "Assets/js/img/OIP (5).webp" },
-    { name: "boy's short and t-shirt", price: 20, category: "boy", img: "Assets/js/img/تنزيل.webp" },
+    { name: "Girl's short and t-shirt", price: 20, category: "girl", img: "assets/img/OIP.webp" },
+    { name: "Girl's dress", price: 25, category: "girl", img: "assets/img/OIP (1).webp" },
+    { name: "Girl's jeans", price: 18, category: "girl", img: "assets/img/OIP (3).webp" },
+    { name: "Girl's winter clothe", price: 45, category: "girl", img: "assets/img/OIP (2).webp" },
+    { name: "boy's clothe", price: 40, category: "boy", img: "assets/img/OIP (4).webp" },
+    { name: "boy's jeans and t-shirt", price: 30, category: "boy", img: "assets/img/OIP (5).webp" },
+    { name: "boy's short and t-shirt", price: 20, category: "boy", img: "assets/img/تنزيل.webp" },
 ]));
 
 
